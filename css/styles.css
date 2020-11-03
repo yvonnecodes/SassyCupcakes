@@ -83,15 +83,43 @@
     -webkit-box-shadow: -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
     -moz-box-shadow:    -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
     box-shadow:         -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
-  }
+    }
 
   .titleText {
       text-align: center;
       color: var(--secondTitle);
       margin-top: 40%;
       font-size: 60px;
-    }
-
+      animation: fadeIn ease 3s;
+      -webkit-animation: fadeIn ease 3s;
+      -moz-animation: fadeIn ease 3s;
+      -o-animation: fadeIn ease 3s;
+      -ms-animation: fadeIn ease 3s;
+      }
+      @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+      }
     .btn.btn-lg.btn-secondary  {
         font-family: 'Noto Sans', sans-serif;
         background-color: var(--buttonColor);
@@ -163,8 +191,7 @@ box-shadow:         -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
        font-size: 30px;
        text-transform: uppercase;
        font-weight: 600;
-       
-   }
+      }
   
 
   input {
@@ -201,13 +228,6 @@ box-shadow:         -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
   button:hover {
       cursor: pointer;
   }
-  
-  iframe {
-      border: none !important;
-  }
-  
-  
-  
   
   /*//////////////////////////////////////////////////////////////////
   [ Contact 1 ]*/
@@ -403,7 +423,7 @@ box-shadow:         -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
   
   
   /*------------------------------------------------------------------
-  [ Responsive ]*/
+  [ Responsive Contact Form ]*/
   
   @media (max-width: 1200px) {
     .contact1-pic {
@@ -534,23 +554,27 @@ box-shadow:         -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
    ====================== */
 
    /* Mobile Phones */
-  @media screen and (max-width: 600px) {
+   @media (min-width: 576px) {
     
   }
 
   @media screen and (max-width: 736px) {
     .titleText {
-      font-size: 30px;
+      font-size: 50px;
+      padding-top: 40px;
+      font-weight: 500;
     }
-    .hero_button {
-      
+    .btn.btn-secondary.btn-lg {
+      padding: 15px;
+      font-size: 12px;
+      margin-top: 40%;
+    }
+    .about_cupcakes {
+      max-width: 100%;
+    }
+    .img-fluid.rounded {
+      margin: 10%;
+      max-width: 100%;
     }
   }
 
-  /* Tablet */
-
-  @media screen and (max-width: 768px) {
-  }
-
-  @media screen and (max-width: 1024px) {
-  }
