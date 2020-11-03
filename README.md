@@ -1,6 +1,5 @@
-<b><h1>Sassy Cupcakes Website</b></h1> :birthday:
+# Sassy Cupcakes Website :birthday:
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - A cupcake website for a fake bakery 
 - This website is built using Bootstrap.
