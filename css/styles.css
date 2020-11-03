@@ -60,15 +60,6 @@
     color: var(--mainText);
 }
 
-/* Navigation Sticky */
-
-.navbar.scrolled {
-    background-color: var(--titleColor);
-    color: var(--secondTitle);
-    transition: background 500ms;
-}
-
-
 /* =====================
       Hero Section
    ====================== */
@@ -83,6 +74,8 @@
     -webkit-box-shadow: -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
     -moz-box-shadow:    -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
     box-shadow:         -1px -2px 27px 0px rgba(50, 50, 50, 0.15);
+    opacity: 0.8;
+    
     }
 
   .titleText {
