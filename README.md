@@ -5,13 +5,20 @@
 - A cupcake website for a fake bakery 
 - This website is built using Bootstrap.
 - The Contact form will not send, this is a fake website.
+- Fully designed and coded by Yvonne.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![](sassycupcakes.gif)
+
+<br>
+<br>
+
+```sh
+   
 https://sassycupcakes.netlify.app/
 
-
+   ```
 
 
 
@@ -30,4 +37,5 @@ https://sassycupcakes.netlify.app/
 * JavaScript
 * Bootstrap
 * Responsive
+* Adobe XD for wireframing web design
 
